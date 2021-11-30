@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,700;1,400&display=swap');
+
+@media only screen and (max-width: 600px) {
+body {
+    background-color: #FBCE37;
+    display:flex; 
+    flex-direction:column; 
+    justify-content:center;
+    align-items: 'center';
+    margin-top: 60%;
+    text-align: center;
+
+}
+
+.banner {
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+  }
+img {
+    width: 60%;
+    height: 60%;
+}
+  .font {
+      font-family: 'Arvo', serif;
+      
+  }
+   .frase{
+       margin-top: 10%;
+    font-size: 110%;
+   }
+
+  .contato {
+      margin-top: 30%;
+      display:flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      font-size: 70% ;
+    margin-right: 10%;
+    align-items: center;
+  }
+
+  .icon {
+      width: 35px;
+      height: 25px;
+      margin: 10px;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+body {
+    background-color: #FBCE37;
+    display:flex; 
+    flex-direction:column; 
+    justify-content:center;
+    align-items: 'center';
+    margin-top: 20%;
+    text-align: center;
+
+  }
+
+
+  .banner {
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+  }
+img {
+    width: 33%;
+    height: 33%;
+}
+  .font {
+      font-family: 'Arvo', serif;
+      
+  }
+   .frase{
+    font-size: 250%;
+   }
+
+  .contato {
+      margin-top: 10%;
+      display:flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      font-size: 100% ;
+    margin-right: 10%;
+    align-items: center;
+  }
+
+  .icon {
+    width: 45px;
+    height: 35px;
+    margin: 10px;
+}
+}
