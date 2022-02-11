@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,700;1,400&display=swap');
 
 @media only screen and (max-width: 600px) {
-body {
-    background-color: #FBCE37;
+.container {
+    background-color: #FB9C37;
     display:flex; 
     flex-direction:column; 
     justify-content:center;
@@ -28,6 +28,7 @@ img {
    .frase{
        margin-top: 10%;
     font-size: 110%;
+    color: #2B2B2B;
    }
 
   .contato {
@@ -48,13 +49,13 @@ img {
 }
 
 @media only screen and (min-width: 601px) {
-body {
-    background-color: #FBCE37;
+.container {
+    background-color: #FB9C37;
     display:flex; 
     flex-direction:column; 
     justify-content:center;
     align-items: 'center';
-    margin-top: 20%;
+    margin-top: 10%;
     text-align: center;
 
   }
@@ -75,6 +76,7 @@ img {
   }
    .frase{
     font-size: 250%;
+    color: #2B2B2B;
    }
 
   .contato {
