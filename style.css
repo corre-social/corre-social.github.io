@@ -1,90 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,700;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,700;1,400&display=swap");
 
 @media only screen and (max-width: 600px) {
-body {
-    background-color: #FB9C37;
-    display:flex; 
-    flex-direction:column; 
-    justify-content:center;
-    align-items: 'center';
+  body {
+    background-color: #fb9c37;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: "center";
     margin-top: 20%;
     text-align: center;
-}
+  }
 
-.banner {
+  .banner {
     margin: 0 auto;
-    display:flex;
+    display: flex;
     justify-content: center;
   }
-img {
+  img {
     width: 100%;
     height: 60%;
-}
-  .font {
-      font-family: 'Arvo', serif;
-      
   }
-   .frase{
-       margin-top: 10%;
+  .font {
+    font-family: "Arvo", serif;
+  }
+  .frase {
+    margin-top: 10%;
     font-size: 210%;
-    color: #2B2B2B;
-   }
+    color: #2b2b2b;
+  }
 
   .contato {
-      margin-top: 30%;
-      display:flex;
-      flex-direction: row;
-      justify-content: flex-end;
-      font-size: 70% ;
-    margin-right: 10%;
+    margin-top: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 70%;
     align-items: center;
   }
 
   .icon {
-      width: 35px;
-      height: 25px;
-      margin: 10px;
+    width: 35px;
+    height: 25px;
+    margin: 10px;
   }
 }
 
 @media only screen and (min-width: 601px) {
-body {
-    background-color: #FB9C37;
-    display:flex; 
-    flex-direction:column; 
-    justify-content:center;
-    align-items: 'center';
+  body {
+    background-color: #fb9c37;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: "center";
     margin-top: 10%;
     text-align: center;
-
   }
-
 
   .banner {
-    margin: 0 auto;
-    display:flex;
+    display: flex;
     justify-content: center;
   }
-img {
+  img {
     width: 50%;
     height: 33%;
-}
-  .font {
-      font-family: 'Arvo', serif;
-      
   }
-   .frase{
+  .font {
+    font-family: "Arvo", serif;
+  }
+  .frase {
     font-size: 250%;
-    color: #2B2B2B;
-   }
+    color: #2b2b2b;
+  }
 
   .contato {
-      margin-top: 10%;
-      display:flex;
-      flex-direction: row;
-      justify-content: flex-end;
-      font-size: 100% ;
-    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 100%;
+    margin-right: 5%;
+    margin-bottom: 10%;
     align-items: center;
   }
 
@@ -92,5 +86,5 @@ img {
     width: 45px;
     height: 35px;
     margin: 10px;
-}
+  }
 }
